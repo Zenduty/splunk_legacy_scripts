@@ -14,7 +14,7 @@ Python script for Zenduty-Splunk legacy alert integration
      3. Copy the Python Script file and paste it into "$SPLUNK_HOME/bin/scripts"
      4. Sign In to Splunk. In the "Search and Report" app, search for the monitor metrics for Zenduty incidents to report on.
      5. Save this as an "Alert" from the "Save As" window in the top right corner.
-     6. Fill in the form and Click the "Add Actions" button under "Trigger Actions", select "Run a script" and write the name of the file which you have pasted in $SPLUNK_HOME/bin/scripts and save this Alert.
+     6. Fill in the form and Click the "Add Actions" button under "Trigger Actions", select "Run a script" and write the name of the file which you have pasted in "$SPLUNK_HOME/bin/scripts" and save this Alert.
     
 Splunk is now Integrated with your Zenduty account.
     
