@@ -9,7 +9,7 @@ Python script for Zenduty-Splunk legacy alert integration
      4. Go to "Configure" under your integrations and copy the API KEY generated.
   
   2. **In Splunk:**
-     1. Go to "$SPLUNK_HOME/bin/" and open "setSplunkEnv" file and create one variable "$ZENDUTY_KEY" and the value of this variable will be API KEY that you have copied earlier. So it will look like "$ZENDUTY_KEY= < API KEY >".
+     1. Go to "$SPLUNK_HOME/bin/" and open "setSplunkEnv" file and create one variable "$ZENDUTY_KEY" and the value of this variable will be API KEY that you have copied earlier. So it will look like "export $ZENDUTY_KEY=< API KEY >".
      2. Clone this Repository
      3. Copy the Python Script file and paste it into "$SPLUNK_HOME/bin/scripts"
      4. Sign In to Splunk. In the "Search and Report" app, search for the monitor metrics for Zenduty incidents to report on.
